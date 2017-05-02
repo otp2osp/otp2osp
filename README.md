@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to OTP 2 OSP
 
-You can use the [editor on GitHub](https://github.com/otp2osp/otp2osp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project is an effort to create a toolbox with libraries, software patterns and tools to build scalable server technology on top of Erlang OTP. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Let's create a platform with: 
 
-```markdown
-Syntax highlighted code block
+- rebar3 as build tool 
+- rebar3 plugins, like mix in elixir, to generate server behaviours  (like gen_tcp_server, gen_ssl_server, gen_udp_server).
+- integrated community libraries/tools (define some patterns)  to solve common backend issues (just examples):
 
-# Header 1
-## Header 2
-### Header 3
+   * recon - production debug 
+   * fuse, jobs, raterl - Circuit breaker and rate limiters
+   * lager - logging framework
+   * lhttpc - HTTP client  (we  have other alternatives)
+   * poolboy, pooler, poolgirl - workers pools with and without back pressure
+   * tsung, bashobench  - load testing
+   * gpb, msgpack - binary protocols 
+   * cowboy - RESTful API's 
+   * rabbitmq, 0mq - message queue systems
+   * and more...
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/otp2osp/otp2osp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- knowledge base and articles to learn about backend development .
