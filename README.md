@@ -21,4 +21,7 @@ This project is an effort to create a toolbox with libraries, software patterns 
    * rabbitmq, 0mq - message queue systems
    * and more...
 
-- knowledge base and articles to learn about backend development .
+- knowledge base and articles to learn about backend development
+- monitoring tool - like https://github.com/shinyscorpion/wobserver 
+- cluster management tools (discovery, join and leave nodes)
+- cloud integration (erlcloud)
