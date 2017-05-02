@@ -1,4 +1,4 @@
-## Welcome to OTP 2 OSP
+## Welcome to OTP 2 OSP (Open Telecom Platform to Open Server Platform)
 
 This project is an effort to create a toolbox with libraries, software patterns and tools to build scalable server technology on top of Erlang OTP. 
 
